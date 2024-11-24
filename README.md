@@ -11,13 +11,24 @@ This program will automatically do all the searching for any book by any author,
 
 ---
 
-## Installing stuff
+## Installing and running
 
 1. Clone thy repo.
-2. Do the thing:
+2. Do the thing (install requirements):
 ```bash
   pip install -r requirements.txt
   ```
- 
+3. `cd` to the main project folder.
+4. Run this command to start the server:
+```bash
+  streamlit run asdfg.py
+  ```
+5. Go to the port listed in your terminal. (default: http://localhost:8501)
 
-search and download any book in seconds
+## Usage
+- Use the search bar to type a book title or author's name.
+- Choose your preferred file type: Any, EPUBs only, or PDFs only.
+- Optionally, enable the English Only filter.
+- Hit the search button and browse through the results.
+
+# Thank you!
