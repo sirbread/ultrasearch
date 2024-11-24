@@ -15,7 +15,7 @@ This program will automatically do all the searching for any book by any author,
 
 1. Clone thy repo.
 2. Do the thing:
-   ```bash
+```bash
   pip install -r requirements.txt
   ```
  
